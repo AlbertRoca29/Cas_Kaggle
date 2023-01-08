@@ -5,5 +5,5 @@ url = 'https://raw.githubusercontent.com/AlbertRoca29/Datasets/main/datasets/mus
 
 # url per si tens el fitxer csv baixat al directori
 url = 'mushrooms.csv'
-
+a = 2
 dataset = pd.read_csv(url, header=0, delimiter=',')
